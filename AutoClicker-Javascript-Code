@@ -1,0 +1,6 @@
+var clicker = setInterval(function() {
+    var button = document.querySelector('button');
+    if (button) {
+        button.click();
+    }
+}, 1000);
